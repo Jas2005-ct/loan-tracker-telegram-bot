@@ -8,6 +8,28 @@ Telegram → Python Bot → Validation → Database → Google Sheets / Reports
 
 OpenRouter AI will be added as a natural-language parsing layer. AI extracts structured payment information; financial calculations and database writes remain deterministic Python logic.
 
+## Package Manager
+
+This project uses **UV** for Python dependency and environment management.
+
+Install dependencies:
+
+```bash
+uv sync
+```
+
+Run the bot:
+
+```bash
+uv run python -m app
+```
+
+Update dependencies / lock file:
+
+```bash
+uv lock
+```
+
 ## Development Phases
 
 1. Telegram bot foundation
